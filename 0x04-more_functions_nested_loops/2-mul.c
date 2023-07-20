@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 /**
  * mul - Multiplies two integers
  * @x: The first number to be multiplied
@@ -6,6 +6,6 @@
  * Return : The result of multiplication between x and y parameter
  */
 int mul(int x, int y)
-(
+{
 return (x * y);
-)
+}
