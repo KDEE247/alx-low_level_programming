@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - check the code
- * print_array - prints stored array value
+ * print_array - prints array integer a and integer n
  * @a: an array of integers
  * @n: the number of elements to swap
  * Return: nothing.
@@ -25,7 +25,7 @@ printf("\n");
 }
 /**
  * main - check the code
- *
+ * print_array - prints array value
  * Return: Always 0.
  */
 int main(void)
