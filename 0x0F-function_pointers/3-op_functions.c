@@ -17,7 +17,7 @@ return (a + b);
 }
 /**
  * op_sub - Returns difference of the two numbers.
- * first number.
+ * @a: first number.
  * @b: second number.
  * Return: difference of a and b.
  */
