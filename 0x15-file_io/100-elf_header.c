@@ -238,7 +238,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 		printf("%#x\n", (unsigned int)e_entry);
 
 	else
-		printf("%#lx\n", e_entry);4
+		printf("%#lx\n", e_entry);
 }
 
 /**
