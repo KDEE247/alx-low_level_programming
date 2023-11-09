@@ -40,7 +40,7 @@ h1->next->prev = h2;
 free(h1);
 return (1);
 }
-h2 = h1
+h2 = h1;
 h1 = h1->next;
 i++;
 }
