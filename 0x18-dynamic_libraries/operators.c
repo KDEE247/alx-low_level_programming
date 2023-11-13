@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <stdlib.h>
 /**
- * add - Add 2 Integers.
+ * add - Addition of 2 Integers.
  * @a: 1st Int.
  * @b: 2nd Int.
- * Return: Addition.
+ * Return: Sum.
  */
 int add(int a, int b)
 {
@@ -14,7 +14,7 @@ int add(int a, int b)
  * sub - Subtract 2 Integers.
  * @a: 1st Int.
  * @b: 2nd Int.
- * Return: Subtraction.
+ * Return: Difference.
  */
 int sub(int a, int b)
 {
@@ -22,7 +22,7 @@ int sub(int a, int b)
 }
 
 /**
- * Mod - Mod 2 Integers.
+ * Mod - Modulus of 2 Integers.
  * @a: 1st Int.
  * @b: 2nd Int.
  * Return: Result.
@@ -51,5 +51,5 @@ int mul(int a, int b)
  */
 int div(int a, int b)
 {
-	return (a %  b);
+	return (a /  b);
 }
