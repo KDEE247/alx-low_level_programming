@@ -4,7 +4,7 @@
  * @s: Buffer Array.
  * @b: Constant Bytes.
  * @n: Nos of Bytes of Memory area filled.
- * Description: Fill 1st n bytes of Memory area ptr by 's' with constant byte 'b'
+ * Description: Fill 1st n byte of Memory area ptr 's' with constant byte 'b'
  * Return: Ptr to Memory area 's'
  */
 
