@@ -1,19 +1,19 @@
-ifndef SEARCH_ALGOS_H
+#ifndef SEARCH_ALGOS_H
 #define SEARCH_ALGOS_H
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * @n: Represents Integers
+ * struct listint_s -Struct is a Singly Linked List Node Structure.
+ * @n: Integer
  * @index: Index of Nodes in the List.
  * @next: Ptr to the Next Node.
- * struct listint_s: Struct is a Singly Linked List Node Structure.
  */
 typedef struct listint_s
 {
-		int n;
-		size_t index;
-		struct listint_s *next;
+int n;
+size_t index;
+struct listint_s *next;
 } listint_t;
 
 /**
@@ -26,10 +26,10 @@ typedef struct listint_s
  */
 typedef struct skiplist_s
 {
-				int n;
-				size_t index;
-				struct skiplist_s *next;
-				struct skiplist_s *express;
+int n;
+size_t index;
+struct skiplist_s *next;
+struct skiplist_s *express;
 } skiplist_t;
 
 int linear_search(int *array, size_t size, int value);
