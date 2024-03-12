@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "../search_algos.h"
+#include "search_algos.h"
 /**
  * free_list - Deallocates Singly Linked Lists.
  * @list: Ptr to the Linked List to be Freed.
